@@ -1,0 +1,6 @@
+I kinda wish that git-bash had emacs instead of vim.
+While I was in school I only used emacs and thought that would be enough.
+Instead, here I am in vim.
+I already miss ctl-n, ctl-p, ctl-f, ctl-b.
+Certain keyboard commands will always feel like home and right now I feel like
+I'm in a strangers house using vim.
