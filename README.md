@@ -5,7 +5,7 @@ This will disable ssl verification for a single git command.  I cannot say for
 certain about the security behind using this, but for someone first starting 
 to wrap their head around git, it helps to push out a few things without 
 starting down some rabbit holes right off the bat.
-I digress, this is disable sll verification for a single git command:
+I digress, this will disable ssl verification for a single git command:
 ```
 git -c http.sslVerify=false
 ```
