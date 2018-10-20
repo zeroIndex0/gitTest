@@ -14,7 +14,9 @@ then you can use that for pulling, pushing, cloning, etc..
 git -c http.sslVerify=false push origin master
 ```
 
-An important note about markup language.  Something that drove me nuts for far too long:
+An important note about markdown file.  Something that drove me nuts for far too long:
 If you want to put a line break in your .md file then you need to put two spaces at the end of the line.  
 I repeat:  
-##### Two spaces at the end of a line will create a line break.      
+##### Two spaces at the end of a line will create a line break.  
+
+Also, here is a [cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) when using markdown.  
