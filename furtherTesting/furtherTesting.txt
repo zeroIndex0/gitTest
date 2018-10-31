@@ -6,3 +6,7 @@ Certain keyboard commands will always feel like home and right now I feel like
 I'm in a strangers house using vim.
 
 testing out git commit
+
+git is actually quite nice for uploading content.
+After everything is set up it's much faster than uploading files  
+and it's nice to be back in a terminal
