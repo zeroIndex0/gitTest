@@ -20,3 +20,5 @@ I repeat:
 ##### Two spaces at the end of a line will create a line break.  
 
 Also, here is a [cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) when using markdown.  
+  
+Here is a [Reference](https://git-scm.com/docs) page for git
