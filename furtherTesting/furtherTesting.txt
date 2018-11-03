@@ -10,3 +10,6 @@ testing out git commit
 git is actually quite nice for uploading content.
 After everything is set up it's much faster than uploading files  
 and it's nice to be back in a terminal
+
+
+This update is just me setting up git-bash on another machine
