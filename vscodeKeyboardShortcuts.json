@@ -2,6 +2,9 @@
 // I also run an extension called Center Editor Window which gives me the nice ctrl+l feature
 // Paste everything below into vscode's `keybindings.json` file
 
+//My color theme is Monokai
+
+
 // Place your key bindings in this file to overwrite the defaults
 [
   {
