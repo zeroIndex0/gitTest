@@ -1,0 +1,5 @@
+For the two weeks ive been working on a website, so I haven't messed with git  
+in a while.  I finally published the website.  The server is up and running  
+and has its traffic pushed through to port 443.  It honestly was easier than  
+I thought, but there is also a lot of helpful documention online.  Anyway,  
+I just wanted to get my feet wet again with git so i dont forget what im doing.
