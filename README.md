@@ -1,6 +1,6 @@
-Testing out git
+###Testing out git
 
-One thing that could help when pushing things using git is the command -c, followed by http.sslVerify=false. 
+One thing that could help when pushing code using git is the command -c, followed by http.sslVerify=false. 
 This will disable ssl verification for a single git command.  I cannot say for
 certain about the security behind using this, but for someone first starting 
 to wrap their head around git, it helps to push out a few things without 
@@ -30,6 +30,7 @@ git remote -v
 to verify it's pointing to your repository  
 
 
+#### Fixing a failed to push some refs error
 Sometimes you might run into an error that reads something like "error failed to push some refs"  
 and its due to commits pushed while you were working locally.  You have to pull and rebase to fix this issue  
 In our case we need the -c http.sslVerify=false.  
