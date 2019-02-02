@@ -1,4 +1,4 @@
-###Testing out git
+### Testing out git
 
 One thing that could help when pushing code using git is the command -c, followed by http.sslVerify=false. 
 This will disable ssl verification for a single git command.  I cannot say for
@@ -28,9 +28,11 @@ Then you can check your remote with
 git remote -v
 ```
 to verify it's pointing to your repository  
+  
+  
 
 
-#### Fixing a failed to push some refs error
+#### Fixing a 'failed to push some refs' error
 Sometimes you might run into an error that reads something like "error failed to push some refs"  
 and its due to commits pushed while you were working locally.  You have to pull and rebase to fix this issue  
 In our case we need the -c http.sslVerify=false.  
@@ -44,6 +46,7 @@ Some say this is bad practice, but for the simple little repos trying to figure 
 I could imagine though, if this were some large repo, this could cause some issues.  
   
 
+  
 #### An important note about markdown files.  
 Something that drove me nuts for far too long:
 If you want to put a line break in your .md file then you need to put two spaces at the end of the line.  
