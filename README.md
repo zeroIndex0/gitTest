@@ -37,15 +37,16 @@ Sometimes you might run into an error that reads something like "error failed to
 and its due to commits pushed while you were working locally.  You have to pull and rebase to fix this issue  
 In our case we need the -c http.sslVerify=false.  
 So we would run the following command:
+#### WARNING:  
+         If you create a new repo and want to push existing code you have to the new repo  
+         do not use this, since this pulls it will erase the data you have currently in your folder.  
+         Either start over, seek answers elsewhere, or add the files first through github then rebase.  
 ```
 git -c http.sslVerify=false pull --rebase origin master
 ```
 we have to pass in the remote and the branch for this to work, which is why we have origin master added.  
 According to git the 'rebase' functionality is to "Reapply commits on top of another base tip"  
 Some say this is bad practice, but for the simple little repos trying to figure things out, it works.  
-WARNING: If you create a new repo and want to push existing code you have to the new repo  
-         do not use this, since this pulls it will erase the data you have currently in your folder.  
-         Either start over, seek answers elsewhere, or add the files first through github then rebase.  
 
   
 #### An important note about markdown files.  
