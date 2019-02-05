@@ -37,10 +37,10 @@ Sometimes you might run into an error that reads something like "error failed to
 and its due to commits pushed while you were working locally.  You have to pull and rebase to fix this issue  
 In our case we need the -c http.sslVerify=false.  
 So we would run the following command:
-#### WARNING:  
-         If you create a new repo and want to push existing code you have to the new repo  
-         do not use this, since this pulls it will erase the data you have currently in your folder.  
-         Either start over, seek answers elsewhere, or add the files first through github then rebase.  
+##### WARNING:  
+If you create a new repo and want to push existing code you have to the new repo,  
+do not use this, since this pulls it will erase the data you have currently in your folder.  
+Either start over, seek answers elsewhere, or add the files first through github then rebase.  
 ```
 git -c http.sslVerify=false pull --rebase origin master
 ```
