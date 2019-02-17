@@ -38,6 +38,7 @@ and its due to commits pushed while you were working locally.  You have to pull 
 In our case we need the -c http.sslVerify=false.  
 So we would run the following command:
 ##### WARNING:  
+#### Back Up All Data Before Attempting  
 If you create a new repo and want to push existing code you have to the new repo,  
 do not use this, since this pulls it will erase the data you have currently in your folder.  
 Either start over, seek answers elsewhere, or add the files first through github then rebase.  
