@@ -1,5 +1,6 @@
 ### Testing out git
-
+  
+#### Push without setting up keys 
 One thing that could help when pushing code using git is the command -c, followed by http.sslVerify=false. 
 This will disable ssl verification for a single git command.  I cannot say for
 certain about the security behind using this, but for someone first starting 
@@ -13,6 +14,33 @@ the command can be used for pulling, pushing, cloning, etc..
 git -c http.sslVerify=false push origin master
 ```
 
+  
+#### Set a remote on a fresh folder
+cd into your desired folder that you want to push to git.  
+-Note: you must have a repo already created on github first-  
+After you cd into the folder you want to create your remote on:  
+```
+git init
+git remote add origin https://github.com/YOURUSERNAME/FORKED-REPO.git
+```
+
+After setting up the remote, you'll want to add files.  
+You can check which files you want to add with:  
+```
+git status
+```
+The files you want to add will be in red.  To add them just type:  
+```
+git add filename
+```
+After everything is added, you'll want to commit your code so you can push it to github:  
+```
+git commit -m "Write Message Here"
+```
+Then is just a matter of doing the push step listed above:  
+```
+git -c http.sslVerify=false push origin master
+```
 
 #### Setting a remote on a forked repo that was first cloned
 If you clone a repository then decide to fork the repository a little while later,  
@@ -39,14 +67,15 @@ In our case we need the -c http.sslVerify=false.
 So we would run the following command:
 ##### WARNING:  
 #### Back Up All Data Before Attempting  
-If you create a new repo and want to push existing code you have to the new repo,  
-do not use this, since this pulls it will erase the data you have currently in your folder.  
+If you create a new repo and want to push existing code to the new repo,  
+do not use this method.  This pulls and it will erase the data you have currently in your folder 
+with whatever you currently have in the repo.  
 Either start over, seek answers elsewhere, or add the files first through github then rebase.  
 ```
 git -c http.sslVerify=false pull --rebase origin master
 ```
 we have to pass in the remote and the branch for this to work, which is why we have origin master added.  
-According to git the 'rebase' functionality is to "Reapply commits on top of another base tip"  
+According to git, the 'rebase' functionality is to "Reapply commits on top of another base tip"  
 Some say this is bad practice, but for the simple little repos trying to figure things out, it works.  
 
   
