@@ -69,7 +69,7 @@ So we would run the following command:
 #### Back Up All Data Before Attempting  
 If you create a new repo and want to push existing code to the new repo,
 do not use this method.  This method pulls what is already in the repo (I belive) and it will erase the data you currently have in your working folder 
-with whatever is currently have in the repo.  
+with whatever is currently in the repo.  
 Either start over, seek answers elsewhere, or add the files first through github then rebase.  
 ```
 git -c http.sslVerify=false pull --rebase origin master
