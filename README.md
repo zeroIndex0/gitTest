@@ -67,9 +67,9 @@ In our case we need the -c http.sslVerify=false.
 So we would run the following command:
 ##### WARNING:  
 #### Back Up All Data Before Attempting  
-If you create a new repo and want to push existing code to the new repo,  
-do not use this method.  This pulls and it will erase the data you have currently in your folder 
-with whatever you currently have in the repo.  
+If you create a new repo and want to push existing code to the new repo,
+do not use this method.  This method pulls what is already in the repo (I belive) and it will erase the data you currently have in your working folder 
+with whatever is currently have in the repo.  
 Either start over, seek answers elsewhere, or add the files first through github then rebase.  
 ```
 git -c http.sslVerify=false pull --rebase origin master
