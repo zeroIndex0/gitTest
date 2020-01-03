@@ -15,3 +15,5 @@ and it's nice to be back in a terminal
 This update is just me setting up git-bash on another machine  
 testing out changes  
 How will this look?
+
+It's been far too long since I've had an update.
