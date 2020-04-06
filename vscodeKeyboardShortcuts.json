@@ -169,7 +169,7 @@
       "command": "cursorRightSelect"
   },
   {
-      "key": "ctrl+shift+alt+f",
+      "key": "ctrl+shift+alt+d",
       "command": "editor.action.formatDocument",
       "when": "editorTextFocus && !editorReadonly"
   },
