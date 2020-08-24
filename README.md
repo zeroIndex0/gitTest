@@ -73,10 +73,13 @@ then you could be in for another set of problems, which involve failing to push 
 
 
 #### Fixing a 'failed to push some refs' error
-Sometimes you might run into an error that reads something like "error failed to push some refs"  
-and its due to commits pushed while you were working locally.  You have to pull and rebase to fix this issue  
-In our case we need the -c http.sslVerify=false.  
-So we would run the following command:
+Sometimes you might run into an error that reads something like "error failed to push some refs".  
+It could be due to trying to push changes from different files you either moved from other  
+folders or tried to rename a file to one you want to replace with the same name.  
+You have to force a pull or rebase to fix this issue.  Forcing a pull seems to be safer, but  
+could still be dangerous, so be careful.  
+You might still need the -c http.sslVerify=false.  
+So we could run one of the following commands:
 ##### WARNING:  
 #### Back Up All Data Before Attempting  
 #### I cannot stress enough about making sure ALL data in your working folder is backed up first
