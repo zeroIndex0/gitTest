@@ -67,8 +67,22 @@ In our case we need the -c http.sslVerify=false.
 So we would run the following command:
 ##### WARNING:  
 #### Back Up All Data Before Attempting  
+#### I cannot stress enough about making sure ALL data in your working folder is backed up first
+If you just ran an init on a new repo, but set the init in the wrong folder and had already  
+uploaded some files, then this could be the solution to that problem.  You will have the  
+same failed to push some refs error due to the files no longer being consistent. You can  
+read up on this issue further [here](file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc/git-push.html).  Look for the section "notes about fast-forward".  
+The section states that you can use a force push, but must know that you will lose history  
+therefore making version control pointless.  This is okay if its a fresh repo and a lot less  
+risky of a solution than the rebase method listed below this one.
+```
+git push --force origin master
+```
+After the first forced push, the error should clear and things should be realigned.  
+
+
 If you create a new repo and want to push existing code to the new repo,
-do not use this method.  This method pulls what is already in the repo (I belive) and it will erase the data you currently have in your working folder 
+do not use the below method.  This method pulls what is already in the repo (I believe) and it will erase the data you currently have in your working folder 
 with whatever is currently in the repo.  
 Either start over, seek answers elsewhere, or add the files first through github then rebase.  
 ```
