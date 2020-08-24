@@ -56,6 +56,18 @@ Then you can check your remote with
 git remote -v
 ```
 to verify it's pointing to your repository  
+
+#### Accidentally ran git init in the wrong folder  
+This is a fairly simple error to fix.  Remove the .git from the current folder.  
+It will remove the (master) from the folder and you can start fresh afterwards.  
+```
+rm -rf .git
+```
+Try to keep in mind that this has a potential to be dangerous.  If you happen  
+to hit enter before adding git, then you could delete everything and ruin your  
+whole day.  So, just make sure you typed .git and not just .  
+Now, if you started uploading some files first before you realized your mistake  
+then you could be in for another set of problems, which involve failing to push refs.  
   
   
 
@@ -70,8 +82,12 @@ So we would run the following command:
 #### I cannot stress enough about making sure ALL data in your working folder is backed up first
 If you just ran an init on a new repo, but set the init in the wrong folder and had already  
 uploaded some files, then this could be the solution to that problem.  You will have the  
-same failed to push some refs error due to the files no longer being consistent. You can  
-read up on this issue further [here](file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc/git-push.html).  Look for the section "notes about fast-forward".  
+failed to push some refs error due to git knowing the files are not coming from the same location.  
+You can read up on this issue further by typing, in the command line:
+```
+git push --help
+```
+Then, searching for the section "notes about fast-forward".  
 The section states that you can use a force push, but must know that you will lose history  
 therefore making version control pointless.  This is okay if its a fresh repo and a lot less  
 risky of a solution than the rebase method listed below this one.
