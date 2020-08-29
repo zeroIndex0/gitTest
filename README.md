@@ -113,7 +113,7 @@ Some say this is bad practice, but for the simple little repos trying to figure 
 
 
 #### Removing Files And Folders:  
-### Files:
+##### Files:
 If you want to remove a file in git you can do it with the following command:  
 ```
 git rm file-to-delete.extension  
@@ -139,7 +139,7 @@ git rm -rf --cached folder-to-delete
 ```
 Then, of course, commit and push the change.
   
-##### An important note about markdown files.  
+#### An important note about markdown files.  
 Something that drove me nuts for far too long:
 If you want to put a line break in your .md file then you need to put two spaces at the end of the line.  
 I repeat:  
