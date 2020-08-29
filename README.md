@@ -111,6 +111,31 @@ we have to pass in the remote and the branch for this to work, which is why we h
 According to git, the 'rebase' functionality is to "Reapply commits on top of another base tip"  
 Some say this is bad practice, but for the simple little repos trying to figure things out, it works.  
 
+
+#### Removing Files And Folders:  
+If you want to remove a file in git you can do it with the following command:  
+```
+git rm file-to-delete.extension  
+```
+Then, of course, commit and push the change.  
+This will also remove the file from your filesystem.  
+If you don't want to remove the file from your system and only from github you can use:  
+```
+git rm --cached file-to-delete.extension
+```
+Then, of course, commit and push the change.  
+  
+Folders are similar with only one slight change to the command:  
+```
+git rm -rf folder-to-delete  
+```
+Then, of course, commit and push the change.
+The same as above, this is remove the folder from your filesystem.
+If you don't want to remove the folder from you system and only remove it from github you can use:  
+```
+git rm -rf --cached folder-to-delete
+```
+Then, of course, commit and push the change.
   
 #### An important note about markdown files.  
 Something that drove me nuts for far too long:
