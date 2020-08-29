@@ -113,6 +113,7 @@ Some say this is bad practice, but for the simple little repos trying to figure 
 
 
 #### Removing Files And Folders:  
+### Files:
 If you want to remove a file in git you can do it with the following command:  
 ```
 git rm file-to-delete.extension  
@@ -125,6 +126,7 @@ git rm --cached file-to-delete.extension
 ```
 Then, of course, commit and push the change.  
   
+### Folders:
 Folders are similar with only one slight change to the command:  
 ```
 git rm -rf folder-to-delete  
