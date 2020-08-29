@@ -132,7 +132,7 @@ Folders are similar with only one slight change to the command:
 git rm -rf folder-to-delete  
 ```
 Then, of course, commit and push the change.
-The same as above, this is remove the folder from your filesystem.
+The same as above, this will remove the folder from your filesystem.  
 If you don't want to remove the folder from you system and only remove it from github you can use:  
 ```
 git rm -rf --cached folder-to-delete
