@@ -126,7 +126,7 @@ git rm --cached file-to-delete.extension
 ```
 Then, of course, commit and push the change.  
   
-### Folders:
+##### Folders:
 Folders are similar with only one slight change to the command:  
 ```
 git rm -rf folder-to-delete  
@@ -139,7 +139,7 @@ git rm -rf --cached folder-to-delete
 ```
 Then, of course, commit and push the change.
   
-#### An important note about markdown files.  
+##### An important note about markdown files.  
 Something that drove me nuts for far too long:
 If you want to put a line break in your .md file then you need to put two spaces at the end of the line.  
 I repeat:  
