@@ -39,6 +39,10 @@ git commit -m "Write Message Here"
 ```
 Then is just a matter of doing the push step listed above:  
 ```
+git push origin master
+```
+And if you need to push without setting up keys:  
+```
 git -c http.sslVerify=false push origin master
 ```
 
