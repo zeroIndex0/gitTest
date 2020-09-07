@@ -16,4 +16,13 @@ This update is just me setting up git-bash on another machine
 testing out changes  
 How will this look?
 
-It's been far too long since I've had an update.
+
+I really do wish that pushing code to a private repo at least showed that you added something to github.
+But sadly, it does not. So if you are working on code in a private repo and it takes a few weeks to smooth things out.
+Well, then you are just going to have a few weeks of nothing to show.  Which is kind of not so great depending on your situation.
+I suppose that you could cheese green boxes by doing that, but still, if someone were to glance at your profile, they would think you havent added anything.
+Where in reality, you just spent a week implementing a feature to the code in your private repo.
+So, at this point, im almost forced to make my repo public, or stop working on my private repo.
+what an annoying hassle not having a job in the industry creates for a private repo.
+"I know you like working on this side project, but........."  This is kind of a rant, which I didn't intend for this to be a rant.
+I just wanted to say: Pushing code to a private repo doesnt show those contributions publically.  That's all.
