@@ -98,6 +98,8 @@ Then, searching for the section "notes about fast-forward".
 The section states that you can use a force push, but must know that you will lose history  
 therefore making version control pointless.  This is okay if its a fresh repo and a lot less  
 risky of a solution than the rebase method listed below this one.
+[Here](https://www.youtube.com/watch?v=dgOpnebZkRo) is a detailed video explaining the dangers of force push.  
+Well worth the watch if you are unaware of what this command will actually do.  
 ```
 git push --force origin master
 ```
