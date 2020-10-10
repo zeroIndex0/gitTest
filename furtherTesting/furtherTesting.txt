@@ -8,9 +8,3 @@ and it's nice to be back in a terminal
 This update is just me setting up git-bash on another machine  
 testing out changes  
 How will this look?
-
-
-I really do wish that pushing code to a private repo at least showed that you added something to github.
-But sadly, it does not. So if you are working on code in a private repo and it takes a few weeks to smooth things out.
-Well, then you are just going to have a few weeks of nothing to show.  Which is kind of not so great depending on your situation.
-What I was trying to say: Pushing code to a private repo doesnt show those contributions publically.
